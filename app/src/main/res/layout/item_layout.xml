@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/rules"
+        android:title = "Rules"
+        android:text="Rules"
+        android:layout_column="0"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/secondary_text">
+    </TextView>
+
+    <TextView
+        android:id="@+id/support"
+        android:title = "Support"
+        android:text="Support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_weight="2"
+        android:textColor="@color/secondary_text">
+    </TextView>
+
+    <TextView
+        android:id="@+id/confidence"
+        android:title = "Confidence"
+        android:text="Confidence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_weight="1"
+        android:textColor="@color/secondary_text">
+    </TextView>
+
+    <TextView
+        android:id="@+id/lift"
+        android:title = "Lift"
+        android:text="Lift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_column="3"
+        android:textColor="@color/secondary_text">
+    </TextView>
+
+    </TableRow>
+
+    </TableLayout>
+</LinearLayout>

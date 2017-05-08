@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/first_fragment"
+            android:icon="@drawable/deal"
+            android:title="Featured Deals" />
+        <item
+            android:id="@+id/second_fragment"
+            android:icon="@drawable/todo"
+            android:title="Activities To Do" />
+        <item
+            android:id="@+id/third_fragment"
+            android:icon="@drawable/food"
+            android:title="Food And Drink" />
+        <item
+            android:id="@+id/fourth_fragment"
+            android:icon="@drawable/fitness"
+            android:title="Health And Fitness" />
+        <item
+            android:id="@+id/fifth_fragment"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Beauty And Spa" />
+        <item
+            android:id="@+id/sixth_fragment"
+            android:icon="@drawable/recommendation"
+            android:title="Recommendation" />
+        <item
+            android:id="@+id/seventh_fragment"
+            android:icon="@drawable/chat"
+            android:title="Post Offers" />
+
+    </group>
+</menu>

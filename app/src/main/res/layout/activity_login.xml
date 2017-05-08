@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".LoginActivity"
+    android:background="@drawable/background">
+
+    <ProgressBar
+        android:id="@+id/progress_bar_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/login_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/progress_bar_login"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/imagebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/smarttravel1" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/text_view_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Username"
+            android:textColor="#2696A1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/edit_text_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/text_view_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Password"
+            android:textColor="#2696A1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text_view_password"
+            android:layout_marginLeft="15dp"
+            android:inputType="textPassword" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/button_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="#2CAFBD"
+            android:onClick="onLoginClicked"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Log In"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/colorText" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/button_facebook_login"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_weight="0.21" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/button_sign_up"
+            style="?android:textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#2696A1"
+            android:onClick="onSignUpClicked"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="New User? Please Sign Up"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/colorText"/>
+
+        <Button
+            android:id="@+id/btn_reset_password"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="12dip"
+            android:background="@null"
+            android:text="Forgot password?"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

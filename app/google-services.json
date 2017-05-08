@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "339967204796",
+    "firebase_url": "https://smarttravel-edfa8.firebaseio.com",
+    "project_id": "smarttravel-edfa8",
+    "storage_bucket": "smarttravel-edfa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339967204796:android:7430a81fd41d3c6d",
+        "android_client_info": {
+          "package_name": "com.example.varsha.smarttravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339967204796-aoacvtcngelsoflul372pfss2dhboie2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.varsha.smarttravel",
+            "certificate_hash": "66e9f556b976250e5311ffea844d81b13c53e413"
+          }
+        },
+        {
+          "client_id": "339967204796-ibvov17vd3hiri23vvlu4h0g2vcmftv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYZ0cE-Rg_5ZCavjg0b0JESzPqoFZagoQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339967204796-ibvov17vd3hiri23vvlu4h0g2vcmftv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

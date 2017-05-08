@@ -1,0 +1,9 @@
+"rules","support","confidence","lift"
+"{Ban $1/1 roll-on antiperspirant deodorant} => {Dinty Moore $1/2}",0.000110950848773993,10,12.0173333333333
+"{Dinty Moore $1/2} => {Ban $1/1 roll-on antiperspirant deodorant}",0.000110950848773993,1.33333333333333,12.0173333333333
+"{shadow or liner product} => {Maybelline New York $2/1 brow}",0.0015533118828359,100,643.785714285714
+"{Maybelline New York $2/1 brow} => {shadow or liner product}",0.0015533118828359,100,643.785714285714
+"{Dove Clinical Protection Deodorant Product} => {Best Foods $1/1 mayonnaise squeeze}",0.000110950848773993,3.57142857142857,2.4760989010989
+"{Best Foods $1/1 mayonnaise squeeze} => {Dove Clinical Protection Deodorant Product}",0.000110950848773993,0.769230769230769,2.4760989010989
+"{Dinty Moore $1/2} => {Best Foods $1/1 mayonnaise squeeze}",0.000110950848773993,1.33333333333333,0.924410256410257
+"{Best Foods $1/1 mayonnaise squeeze} => {Dinty Moore $1/2}",0.000110950848773993,0.769230769230769,0.924410256410256
